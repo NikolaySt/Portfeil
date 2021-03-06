@@ -1,0 +1,432 @@
+//////////////////////////////////////////////////
+////////          _isres32.dll     ///////////////
+//////////////////////////////////////////////////
+
+STRINGTABLE 
+{
+ 11021, "An internal error has occurred. Insufficient memory to allocate buffer.\n\nError 702."
+ 11023, "An internal read error has occurred on %s. Unable to load installation instructions.\n\nError 703."
+}
+
+STRINGTABLE 
+{
+ 11024, "%s file has become corrupted. Unable to load installation instructions.\n\nError 704."
+ 11031, "Select Components"
+ 11032, "Warning"
+ 11033, "Severe"
+ 11034, "Information"
+ 11035, "Question"
+ 11036, "Enter Information"
+ 11037, "Постав\377не на следващи\377 диск."
+ 11038, "Choose Destination Location"
+ 11039, "Мол\377, изберете устройство."
+}
+
+STRINGTABLE 
+{
+ 11051, "Setup could not find a file on the specified path or disk.\n\nPlease check that the proper disk is inserted or specify a new path."
+ 11052, "Warning"
+ 11053, "Setup could not find a file on the specified path or disk.\n\nPlease check that the proper disk is inserted or specify a new path."
+ 11054, "Setup could not find a file on the specified path or disk.\n\nPlease check that the proper disk is inserted or specify a new path."
+ 11055, "Setup could not find a file on the specified path or disk.\n\nPlease check that the proper disk is inserted or specify a new path."
+}
+
+STRINGTABLE 
+{
+ 11061, "Install"
+ 11071, "Setup in unable to initialize the installation program. The script file may be bad.\n\nError 502."
+}
+
+STRINGTABLE 
+{
+ 11113, "Setup has detected a possible infinite loop in the script with function %s.  Make sure you are handling the error returns codes properly.\n\nError 440."
+ 11115, "Инсталаци\377"
+ 11116, "Setup Initialization Error"
+ 11118, "&Край"
+}
+
+STRINGTABLE 
+{
+ 11132, "Setup has encountered an infinite loop error in the script.  Correct the script and try again. \n\nError 424."
+ 11133, "Setup has encountered an incomplete return statement in the script.\nCheck your script for unmatched return statements.\n\nError 425."
+ 11134, "Setup is unable to find the installation script file: %s \n\nError 426."
+ 11135, "Setup is unable to load the installation script file.\n\nError 423."
+}
+
+STRINGTABLE 
+{
+ 11137, "Setup is unable to copy the installation support file %s to a temporary location.\n\nError 420."
+ 11138, "Setup is unable to copy the installation support file _SETUP.LIB to a temporary location. Make more space available and try again.\n\nError 421."
+ 11139, "Setup is unable to expand the installation support file %s.\n\nError 422."
+ 11140, "Setup is unable to load the installation script file: %s \nThe script was created with a previous version or has been corrupted.\n\nError 427."
+ 11141, "Setup is unable to load the installation script file: %s \nThe script was created with an older version of InstallShield.  Please recompile with the current version.\n\nError 428."
+ 11142, "Setup is unable to load the installation script file: %s \nThe script was created with a newer version of InstallShield.  Please use the newer InstallShield Setup program.\n\nError 429."
+ 11143, "Setup is unable to load the installation script file: %s \nThe script was created using InstallShield SDK Edition.  Recompile the script using InstallShield3.\n\nError 430."
+ 11144, "Setup is unable to load the installation script file: %s \nThe script was created using InstallShield3.  Recompile the script using the InstallShield SDK Edition.\n\nError 431."
+ 11146, "%d %%"
+ 11147, "Setup has detected that unInstallShield is in use.  Please close unInstallShield and restart setup.\n\nError 432."
+}
+
+STRINGTABLE 
+{
+ 11161, "Setup is unable to initialize the installation program ( INSTALL.EXE ).\n\nError 201."
+ 11162, "Setup is unable to initialize the installation program.\n\nError 202."
+}
+
+STRINGTABLE 
+{
+ 11182, "About..."
+}
+
+STRINGTABLE 
+{
+ 11221, "A division by zero error was detected in the script. \n\nInstallation will continue.\n\nError 701."
+}
+
+STRINGTABLE 
+{
+ 11341, "Error"
+}
+
+STRINGTABLE 
+{
+ 11351, "String variable is not large enough for string.\nCheck the string declarations.\n\nError 401."
+ 11355, "OK"
+ 11356, "Отказ"
+}
+
+STRINGTABLE 
+{
+ 11412, "About..."
+ 11421, "Times New Roman"
+}
+
+STRINGTABLE 
+{
+ 11461, "An internal error has occurred.\n\nClose all programs and restart the system.\n\nError %d."
+}
+
+STRINGTABLE 
+{
+ 11491, "Unable to write to response file '%s' during recording.  Please ensure enough space is available on target drive."
+}
+
+STRINGTABLE 
+{
+ 11511, "K"
+ 11512, "MB"
+}
+
+STRINGTABLE 
+{
+ 11600, "There is not enough space to install these option(s).\nPlease free up some disk space or modify your selections."
+ 11601, "Setup is complete.  You may run the installed program by double-clicking on the installed program icon."
+ 11602, "Installation complete."
+ 11603, "Installing..."
+ 11604, "There is not enough space available on the disk."
+ 11605, "Please free up some space or change the target location to a different disk."
+ 11606, "This program requires VGA or better resolution."
+ 11607, "Do you want to view the README file now?"
+ 11608, "General file transfer error. Please check your target location and try again."
+ 11609, "Копиране на програмните файлове..."
+ 11610, "Създава програмната група и иконите..."
+ 11611, "Installation program cannot modify file %s."
+ 11612, "Unable to create target directory %s."
+ 11613, "Please check write access to %s."
+ 11614, "Unable to locate file %s."
+ 11615, "Please choose a different directory."
+}
+
+STRINGTABLE 
+{
+ 11616, "Choose the installation language."
+ 11617, "Keep the older version."
+ 11618, "You may run Setup at a later time to complete the installation."
+ 11619, "Do you want to quit the Setup program now?"
+ 11620, "Do you want to continue this installation?"
+ 11621, "If you choose to continue, the installation program will overwrite the existing version."
+ 11622, "The Installation program failed to load file %s."
+ 11623, "Installation program has successfully modified the %s file, and the old version of the file is saved as %s."
+ 11624, "A version of %s is currently in use."
+ 11625, "Please close all applications and run setup again."
+ 11626, "Choose the installation directory."
+ 11627, "Choose the type of installation."
+ 11628, "You must quit all programs and restart your computer before using the application."
+ 11629, "Related File"
+ 11630, "Error Number"
+ 11631, "The installation program cannot save the newly modified %s file back to disk."
+}
+
+STRINGTABLE 
+{
+ 14001, "Да бъде ли създадена директори\377та? \n\n'%s'\n\n"
+ 14002, "Създадената директори\377 \n\n'%s'\n\n е невалидна. Мол\377, създайте \377 отново. "
+ 14003, "Избор на директори\377"
+ 14004, "Destination:"
+ 14005, "OK"
+}
+
+//////////////////////////////////////////////////
+///////////////// _Setup.dll /////////////////////
+//////////////////////////////////////////////////
+
+STRINGTABLE LOADONCALL MOVEABLE DISCARDABLE 
+{
+ 7060, "Setup has failed to detect that SHARE is loaded.  If you continue, you may experience file sharing related problem.  Do you want to continue?"
+ 7061, "Setup is unable to locate the script file <%s> which is needed to complete the installation. \n\nError 107."
+ 7062, "Setup is unable to run a program needed to proceed with the installation. Restart your system and try again.\n\nError 105."
+ 7063, "Setup is unable to find a hard disk location to store temporary files.\n\nMake at least %dKB free disk space available and then try running Setup again.\n\nError 101."
+ 7064, "Setup is unable to decompress and copy all of the program files needed to proceed with the installation.  Contact your software vendor.\n\nError 112."
+ 7065, "Setup requires a different version of Windows.  Check to make sure that you are running Setup on the Windows platform for which it is intended.\n\nError 102."
+ 7066, "Setup was started with a command line argument that contained an incomplete parameter quote '%s'. \n\nError 110."
+ 7068, "Insufficient memory available to run Setup. Close all other applications to make more memory available and try to run Setup again.\n\nError 111."
+}
+
+STRINGTABLE LOADONCALL MOVEABLE DISCARDABLE 
+{
+ 7110, "Setup Initialization Error"
+ 7111, "2000"
+}
+
+STRINGTABLE LOADONCALL MOVEABLE DISCARDABLE 
+{
+ 11146, "%d %%"
+}
+
+//////////////////////////////////////////////////
+///////////////// _isusr32.dll ///////////////////
+//////////////////////////////////////////////////
+
+STRINGTABLE 
+{
+ 17001, "Обновяване на файловете..."
+ 17002, "Interbase Files"
+}
+
+STRINGTABLE 
+{
+ 17030, "Обновяване на регистъра..."
+ 17031, ""
+ 17032, "Unable to create the directory %s. Please check if you have the appropriate access rights."
+ 17033, "General file transfer error. Please check your target location and try again.\n\n Error Number:%s\n\n Filename:%s"
+}
+
+STRINGTABLE 
+{
+ 17050, "CUSTOM"
+ 17051, "TYPICAL"
+ 17052, "COMPACT"
+ 17053, "COMPLETE"
+}
+
+STRINGTABLE 
+{
+ 17070, "Setup is updating the config.sys file."
+ 17071, "Setup is updating the share, path and environment information of the system."
+}
+
+STRINGTABLE 
+{
+ 17090, "IDAPI Installation"
+ 17091, "LocalIB Installation"
+ 17092, "BDE/IDAPI Files"
+ 17093, "BDE/IDAPI Files"
+ 17095, "ReportSmith Installation"
+ 17096, "Working"
+ 17097, "Private"
+}
+
+STRINGTABLE 
+{
+ 17120, "SuccessFul"
+ 17121, "Error"
+ 17122, "The Configuration File Is ReadOnly"
+ 17123, "Initialization Failed"
+ 17124, "Open File Function For IDAPI Configuration File Failed"
+ 17125, "Add Alias Failed"
+ 17126, "Unknown Error"
+ 17130, "The File IDAPI32.CNF could not be located in SUPPORTDIR"
+ 17131, "Обновяване настройката на Borland Database Engine"
+ 17132, "Обновяване настройката на SQL Links"
+ 17133, "Обновяване настройката на InterBase SQL Links"
+}
+
+STRINGTABLE 
+{
+ 17140, "Setup has detected InterBase 4.0 on your system. Ensure that the InterBase"
+ 17141, "Client Library (GDS32.DLL) is on your system path."
+ 17142, "Merging The Configuration File Has Failed. \nConfig File: "
+ 17143, "FixMerge Function Has Failed."
+ 17144, "InterBase Server for Windows NT was detected on this machine."
+ 17145, "Local InterBase can not be installed on the same machine as InterBase Server for Windows NT."
+ 17150, "Memory Error. List could not be created.\nExiting Installation."
+ 17151, "Обновяване настройката на BDE Alias"
+}
+
+STRINGTABLE 
+{
+ 17152, "Unable To Access Language Resource Of BDE"
+ 17153, "Setup is updating InterBase Registry Information"
+ 17160, "Please enter the initialization file name"
+ 17161, "Unable to locate %s file in %s\nExiting Application Installation."
+ 17162, "Error"
+ 17163, "This application is %d based.\nBut you may continue installation.\nConsult the vendor for any problems encountered."
+ 17164, "Some Files Could not be installed because they are currently in use by other programs in the system. To allow for proper operation of the new program you should restart your system at this time."
+ 17165, "Setup has finished copying files to your computer.\nSetup will now launch the program. Select your option below."
+ 17166, "%p вече е инсталирана на Вашия компютър."
+ 17167, "Yes, I want to view the README File"
+}
+
+
+STRINGTABLE 
+{
+ 17168, "Yes, Launch the program file"
+ 17169, "Деинсталиране"
+ 17170, "Информация"
+ 17171, "Представяне на програмата."
+ 17172, "      "
+ 17173, "The Space Required For Installation Is Not Sufficient. \nPlease empty disk space required to proceed with the installation."
+ 17174, "Program Files"
+ 17175, "Common Files"
+ 17180, "Setup has encountered a failure in the installation."
+ 17181, "Setup cannot proceed with the installation, and will terminate immediately."
+}
+
+STRINGTABLE 
+{
+ 17185, "Моля, изчакайте..."
+ 17186, "Моля, изчакайте..."
+ 17187, "Моля, изчакайте..."
+ 17188, "Създаване на икони..."
+}
+
+STRINGTABLE 
+{
+ 17200, "Setup has detected the Borland Database Engine (BDE) on this system. Continuing with setup will install a partial version of BDE in a different directory, "
+ 17201, "which may cause problems when both versions of BDE are being used."
+ 17202, "We recommend that you contact the supplier of this application to obtain a full version of BDE compatible with this application."
+ 17203, "Continue with setup?"
+ 17206, "Failed In Adding Alias"
+ 17207, "The Error Number Is"
+}
+
+STRINGTABLE 
+{
+ 18000, "Setup Type:"
+ 18001, "Target Folder"
+ 18002, "User Information"
+ 18003, "Name:  "
+ 18004, "Company:  "
+ 18005, "Serial:  "
+ 18006, "Failed in restarting the system"
+ 18007, "Please wait while setup launches the Online Registration Wizard"
+ 18008, "Online Registration"
+}
+
+STRINGTABLE 
+{
+ 18200, "Setup is updating ODBC Configuration"
+}
+
+STRINGTABLE 
+{
+ 18500, "File could not be located on path:"
+ 18501, "Be sure to select the right path. Do you wish to retry ?"
+ 18503, "Регистрация на програмни файлове"
+ 18504, "Please Enter Disk / Path Prior To Disk For"
+ 18505, "was inserted."
+ 18510, "Error loading %s"
+ 18511, "The OLE file %s is locked and cannot be updated. Please shut down all other running applications and restart the installation."
+}
+
+STRINGTABLE 
+{
+ 18600, "Unable to load Express Extension DLL %s\nExiting Installation."
+ 18601, "Function %s not found in Extension DLL %s\nExiting Installation."
+ 18602, "The following file(s) failed to Self Register"
+ 18603, "Unable to run Express Extension EXE %s."
+ 18604, "Unable to load installation data file due to insufficient memory."
+ 18605, "Enabling of automatic core component handling has failed."
+ 18606, "This installation can only be uninstalled by a user with administrative privileges. Uninstallation will now exit."
+ 18607, "Unable to resolve directory %s\nExiting Installation."
+}
+
+STRINGTABLE 
+{
+ 18608, "Setup cannot continue because some system files are out of date on your system.  Click OK if you would like setup to update these files for you now. You will need to restart Windows before you can run setup again. Click Cancel to exit setup without updating system files."
+ 18609, "You have entered an invalid serial number. Please check the serial number included with the application and try again."
+}
+
+STRINGTABLE 
+{
+ 19000, "Please wait while setup installs the MDAC 2.0 components.  It might take a few minutes."
+ 19001, "The MDAC components require DCOM95, which is not installed on this machine."
+ 19002, "This application needs DCOM95, which is not installed on your machine. To install DCOM95, click Yes. Once it is installed, the installation program will reboot your machine and finish the installation. To exit the installation program, click No."
+ 19003, "The serial number you have provided %s is invalid.\n\nYour serial number should be located in one of the following locations:\n\t- The shipping box\n\t- The product box\n\t- The license card\n\t- The inside back cover of the CD\031s jewel case\n\nWhen re-entering the serial number, please be certain to include all of the dashes as they appear in the serial number.  The \042Serial #\042 text does not need to be entered in the Serial Number field.\n\nIf you purchased this software electronically, the online vendor should provide you via email with a serial number.  If you did not receive a valid serial number upon purchase, please contact your vendor."
+ 19004, "Choose Database Destination"
+ 19005, "The application's database will be installed in the following directory.\n\nTo accept this directory, click Next.\n\nTo install to a different directory, click Browse and select another directory.\n\nTo exit the setup,  click Cancel."
+}
+
+//////////////////////////////////////////////////
+///////////////// uninst.exe /////////////////////
+//////////////////////////////////////////////////
+
+STRINGTABLE 
+{
+ 501, "Деинсталация"
+ 502, "Деинсталацията е завършена успешно."
+ 503, "Деинсталацията е завършена. Няколко файла от програмата не са премахнати. Вие може да ги премахните ръчно."
+ 504, "Потвърдете деинсталирането на програмата."
+ 505, "Деинсталиране на програмата"
+ 506, "Да премахна ли специалния файл?"
+ 507, "Системата последователно ще Ви показва специалните файлове, които могат да обслужват и други програми. "
+ 508, "Ако някоя програма използва тези файлове и Вие ги премахните, то тя няма да функционира. Желаете ли със сигурност да премахните специалните файлове?"
+ 509, "Оставянето на тези файлове няма да наруши функционирането на Вашата система. Ако Вие не сте сигурни в това, което правите недейте да премахвате специалните файлове."
+ 510, "Име на файла:"
+ 511, "Място:"
+}
+
+STRINGTABLE 
+{
+ 512, "Да"
+ 513, "Да. Всички"
+ 514, "Не"
+ 515, "Отказ"
+ 516, "Този избор премахва всички специални файлове."
+ 517, "Ако някоя програма използва тези файлове и Вие ги премахните, то тя няма да функционира. Желаете ли със сигурност да премахните специалните файлове?"
+}
+
+STRINGTABLE 
+{
+ 1001, "Unable to copy the installation log file to temporary location '%s'.  Please ensure enough space is available for this file."
+ 1002, "Not enough memory unable to perform the unInstallation."
+ 1003, "Unable to locate the installation log file '%s'.  Uninstallation will not continue."
+ 1004, "The log file '%s' is not valid or the data has been corrupted.  Uninstallation will not continue."
+ 1005, "Internal error, unable to initialize feedback window."
+ 1006, "Internal error, unable to continue uninstall process."
+ 1007, "Internal error, unable to load or call external DLL.  Please contact your vendor for more information."
+}
+
+STRINGTABLE 
+{
+ 1401, "mfc30.dll"
+ 1402, "mfcans32.dll"
+ 1403, "mfcd30.dll"
+ 1404, "mfcn30.dll"
+ 1405, "mfco30.dll"
+ 1406, "mfcuia32.dll"
+ 1407, "mfcuiw32.dll"
+}
+
+STRINGTABLE 
+{
+ 1408, "mfc30loc.dll"
+ 1409, "vbrun300.dll"
+ 1410, "threed.vbx"
+}
+
+
+
+
+
+

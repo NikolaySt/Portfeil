@@ -1,0 +1,8 @@
+:Base tlzrw1.hlp>main
+:Title TLzrw1 component help
+; added below link statement so that references to vcl help would resolve 3/10 MM
+:Include DELPHI3.CFG
+1 TLzrw1 component help
+2 Overview and history=unit_Lzrw1
+2 TLzrw1 Class=class_TLzrw1
+2 Exception ELzrw1Exception=class_ELZrw1Exception

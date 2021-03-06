@@ -1,0 +1,45 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = GenSerial.exe ArdPortfeil.exe ArdSinfo.dll uninstall.exe \
+  LocalInfo.exe _unindel.exe ChartsTest.exe FileDBStream.exe TreeDB.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+GenSerial.exe: Generation Serial\GenSerial.dpr
+  $(DCC)
+
+ArdPortfeil.exe: Found ProjectFile\ArdPortfeil.dpr
+  $(DCC)
+
+ArdSinfo.dll: Dll Security\ArdSinfo.dpr
+  $(DCC)
+
+uninstall.exe: Uninstall\uninstall.dpr
+  $(DCC)
+
+LocalInfo.exe: Local Hide Info Program\LocalInfo.dpr
+  $(DCC)
+
+_unindel.exe: UnFromFloppy\_unindel.dpr
+  $(DCC)
+
+ChartsTest.exe: Charts\ChartsTest.dpr
+  $(DCC)
+
+FileDBStream.exe: FileStream\FileDBStream.dpr
+  $(DCC)
+
+TreeDB.exe: TreeFiles\TreeDB.dpr
+  $(DCC)
+
+

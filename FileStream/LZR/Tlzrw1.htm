@@ -1,0 +1,210 @@
+<!-- This document was created with HomeSite 2.5 -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+	<TITLE>Tlzrw1.zip : file compression component readme-file</TITLE>
+</HEAD>
+
+<BODY>
+
+<P><H2 ALIGN=CENTER>TLzrw1: file compression component (V2.00.00)</H2></P>
+
+<P><H3 ALIGN=CENTER><A HREF="mailto:Danny.Heijl@cevi.be">Danny Heijl</A> <A NAME="Author URL"></A>&nbsp;&nbsp;<A HREF="http://www.cevi.be/pp/danny/dhe.htm" NAME="Author URL">[URL]</A>
+</H3></P>
+
+<TABLE CELLPADDING=5 BGCOLOR="#C0C0C0" CELLSPACING=3 BORDER=3 ALIGN="CENTER" VALIGN="MIDDLE" WIDTH=0>
+
+<TR><TH NOWRAP>TLzrw1 compresseses a file with :</TH></TR>
+<TR><TD>either the <B>LZRW1/KH</B> compression algorithm,
+with code posted by Kurt Haenen on the SWAG (lzrw1).
+</TD></TR>
+<TR><TD>or the Japanese <B>LZH</B> compression algorithm<BR>
+<UL>
+	<LI>LZSS coded by Haruhiko OKUMURA
+	<LI>Adaptive Huffman Coding coded by Haruyasu YOSHIZAKI
+	<LI>Edited and translated to English by Kenji RIKITAKE
+	<LI>Translated from C to Turbo Pascal by Douglas Webb 2/18/91
+	<LI>posted by Doug Webb on the SWAG (preskit2\lzh).
+</UL>
+</TD></TR>
+<TR><TD>Visual feedback ((de)compression progress status) on a Panel if so desired.</TD></TR>
+
+</TABLE>
+<OL>
+<LI><A NAME="Installation Instructions"></A><A HREF="#instructions" NAME="Installation Instructions">Installation
+Instructions</A> </LI>
+
+<LI><A NAME="Component Description"></A><A HREF="#description" NAME="Component Description">Component
+Description</A> </LI>
+
+<LI><A NAME="Version History"></A><A HREF="#history" NAME="Version History">Version History</A> </LI>
+
+</OL>
+
+
+<P><HR ALIGN="CENTER" SIZE="3" COLOR="#800000"></P>
+
+<A NAME="instructions"></A>
+<P><H2>Installation instructions :</H2></P>
+
+<OL><LI>copy compon\*.* to your component directory
+
+
+
+<LI>For :
+<BR>16 bit : install tlzrw116.pas in your component library
+<BR>32 bit : install tlzrw132.pas in your component library
+<BR>
+
+<LI>rebuild the component library.
+
+</OL>
+<P>From this moment on you can excercize the test application compressp.dpr. Or you can play with the &quot;tlzrw1&quot; component itself.
+
+</P>
+<P><HR ALIGN="CENTER" SIZE="3" COLOR="#800000"></P>
+<A NAME="description"></A>
+<P><H2>Component Description :</H2></P>
+<P><H3>Data types :</H3></P>
+
+<P><H4>type TCompressMode = (Good, Fast, Auto);</H4></P>
+
+<P>There are three modes of compression :</P>
+
+<OL>
+<LI><B><U>Good :</U></B> the compression algorithm used is LZH. Takes longer but gives a very good compression ratio.
+
+<LI><B><U>Fast :</U></B> the compression algorithm used if LZRW1/KH. This algorithm is simple and fast, but the compression ratio is not so good. Works very well for text files and some types of database files.
+
+
+<LI><B><U>Auto :</U></B> the compression ratio is chosen by Tlzrw1. Two blocks (at 1/3 and 2/3 the file size) are compressed with LZRW1/KH (fast), and if both blocks compress more than a threshold (of default 40%), the &quot;Fast&quot; (LZRW1/KH) method is used. Otherwise the &quot;Good&quot; (LZH) method is used. You can specify the Threshold property if the default does not suit you.
+
+
+</OL>
+
+
+<P><H3>Definition :</H3></P>
+
+<P><H4>Tlzrw1 = class(TCustomPanel)</H4></P>
+
+
+<P>
+constructor Create(AOwner : TComponent); override;<BR><BR>
+
+The component can provide visual feedback on a panel if visible := True. So all properties/methods/events of Tpanel apply.<BR>
+Only the properties applicable to the LZRW part of the component are listed here, not those of Tpanel.<BR>
+
+</P>
+<P><H3>Properties</H3></P> 
+
+<P><H4>property InputFile    : String;</H4></P>
+
+The file to be (de)compressed when UseStream is False.
+
+<P><H4>property OutputFile   : String;</H4></P>
+
+<P>The (de)compressed file when UseStream is False.</P>
+
+<P><H4>property InputStream    : TStream;</H4></P>
+
+<P>The stream to be (de)compressed. Can be any descendant of TStream that implements Read, Write and Seek. You are responsible for positioning the stream before and after compression. Used instead of InputFile when UseStream is True.</P>
+
+<P><H4>property OutputStream   : TStream;</H4></P>
+
+<P>The stream that the (de)compressed result gets written to. Can be any descendant of TStream that implements Read, Write and Seek. You are responsible for positioning the stream before and after compression. Used instead of OutputFile when UseStream is True.</P>
+
+
+<P><H4>property CompressMode : TCompressMode default Good;</H4></P>
+									  
+<P>This property should be set prior to calling the Compress method.
+Possible values : Good (default, LZH), Fast (LZRW1/KH), or Auto.
+<BR>
+It is also returned by the Advise method.<BR>
+</P>
+
+<P><H4>property Visible;</H4></P>
+
+
+<P>When you set the visible property to True, TLzrw1 shows itself as a &quot;statuspanel&quot; on your form, that gives a visible progress indication when (de)compressing. The progress indicator is text-mode only, not a graphic gauge.</P>
+
+<P><H4>property UseStream : TStream;</H4></P>
+
+
+<P>When you set the UseStream property to True, TLzrw1 will use the InputStream and OutputStream properties to read and write, instead of using the InputFile and OutputFile properties.</P>
+
+<P><H4>property Threshold : Integer;</H4></P>
+
+<P>Specify the compression ratio (default is 40 %) that the Advise method and the compression with CompressMode = Auto use to choose between Fast (LZRW1/KH) and Good (LZH) compression. If compression with LZRW1/KH reduces the file size to more than Threshold (default 40) percent of it's original size, then Fast is advised or used. </P>
+
+<P><H4>All properties of the standard Tpanel.</H4></P>
+
+<P><H3>Methods</H3></P> 
+
+<P><H4>function Compress     : LongInt;</H4></P>
+
+<P>This function compresses the file specified in the Inputfile property to the file specified in the Outputfile property using the compression algorithm chosen in Compressmode property.<BR>
+
+The return value is either the compressed file size if all goes well, or -1 if not.
+</P>
+
+<P><H4>function Decompress   : Longint;</H4></P>
+
+<P>This function decompresses the file specified in the Inputfile property to the file specified in the Outputfile property using the algorithm used when compressing the file.<BR>
+
+The return value is either the uncompressed file size, or -1 if something goes wrong.
+
+</P>
+<P><H4>function Advise       : TcompressMode;</H4></P>
+
+<P>This function compresses a block at 1/3 of the file, and one at 2/3 of the file. If the combined compression ratio reduces the file size to more then Threshold (default 40) %, the fast (LZRW1/KH) compression method is advised by returning the &quot;Fast&quot; TCompressMode, otherwise &quot;Good&quot; is returned.</P>
+
+<P><H4>All methods of the standard Tpanel.</H4></P>
+
+<P><H3>Events</H3></P> 
+
+<P><H4>All events of the standard Tpanel. </H4></P>
+
+
+<P><HR ALIGN="CENTER" SIZE="3" COLOR="#800000"></P>
+
+<A NAME="history"></A>
+<P><H2>Version History :</H2></P>
+<P><H3>Version 1.01.00:</H3></P>
+<P>all VCL code by D. Heijl , may 8-9 1996<BR>
+<BR>
+The Getblock/PutBlock procedures are based on the code in lzhtest.pas by Douglas Webb.
+The files lzh.pas and lzrw1kh.pas are essentially untouched (only some cosmetic changes, also added exceptions)
+</P>
+
+<P><H3>Version 1.01.01:</H3></P>
+<P>Bug discovered in LZRW1KH code by Dominque Willems,
+fixed may 97, Danny Heijl</P>
+
+<P><H3>Version 2.00.00:</H3></P>
+<P>Stream support added by Stefan Westner, modified slightly by Danny Heijl (May 1997).
+You can use any stream that implements the Read, Write and Seek methods.</P>
+<P>I Also added a new "Threshold" property, and discovered that I introduced a new bug with the fix of 1.01.01 (signaled by David Mok <david@independent.si>). This should now be fixed. (Danny Heijl, July 1997)</P>
+
+<P><HR ALIGN="CENTER" SIZE="3" COLOR="#800000"></P>
+<P>Feel free to use or give away this software as you see fit.  Just leave the credits in place if you alter the source.<BR>
+
+This software is delivered to you &quot;as is&quot;, i.e. no guarantees, it may blow up or trigger World War Three  for all I know.<BR>
+
+ If you find any bugs and let me know, I will try to fix them.  If you have good suggestions or made some useful changes, please  post them to me, and I will incorporate them in a future release.<BR>
+ 
+I believe in programmers around the world helping each other  out by distributing free source code.<BR>
+Reinventing the wheel can be a lot of fun, but is not always the best way to handle things. Also, someone else may have come up with an idea for much better wheels.<BR>
+<BR>
+
+
+Danny Heijl, may 10 1996.<BR>
+Danny.Heijl@cevi.be<BR>
+
+
+</P>
+
+
+
+</BODY>
+</HTML>

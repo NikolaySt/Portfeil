@@ -1,0 +1,135 @@
+-----MENU-------File-------------
+New Investment- нова инвестиция
+Open Imvestment(s)- отваряне на нова инвестиция
+Close top Investment-затваряне на инвестиция
+Close All Investments- затваряне на всички инвестиции
+Save Top Investment As..-съхраняване на инвестиция (първоначално)
+Save All Investment-съхраняване на всички инвестиции
+Open Portfolio-отваряне на портфейл
+Close Portfolio-затваряне на портфейл
+Save Portfolio As-съхраняване на портфейла в..
+Save Portfolio-съхраняване на текущия портфейла
+Import-въвеждам,внасям
+    Prices-цена
+    Transactions-сделки
+Export-изнасям
+Page Setup
+Print
+    Windows    
+    Prices
+    Investments
+    Distributions-разпределяне, разделяне
+Backup-правя архив
+Restore-възстановявам, подновявам
+Hide to Tray-скривам в 
+Exit - изход
+------MENU---Edit---------------
+Update Price-обновяване на цената
+  Single Investment- единична инвестиция
+  Multiple Investments-множество инвестиции
+  Single Investment - Repeat-повторение на единичната инвестиция
+  Multiple Investments - Repeats-повторение на всички инвестиции
+  Retrieve - Internet-връщане към интернет
+  Retrieve -  CompuServe-връщане към 
+Delete Price- изтриване на цена
+  One Date - Top Investment-датирам
+  One Date - All Investments-датирам
+  Date Range - Top Investment-поредица от дати
+  Date Range - All Investments-поредица от дати
+Buy/Sell-купувам/продавам
+Distribution-разпределение, разделяне
+Split-разделям
+Account Fee-такса
+Notes-бележки
+Price Alert-сигнална цена
+Investment Properties-характеристики на инвестициите
+All Data-всички данни
+-----MENU-----View-------------
+Dates-дати
+Scale-скала
+Zoom-мащаб
+Graphs-графика
+Yields-доход
+Legend-легенда
+Hidden Investments-неодобрени инвестиции
+Tool Bar - бързи бутони
+Status Bar - информационен ред (най отдолу)
+Number of Displays-поставяне на номера
+Exchange Rate Adjusted
+Split Adjusted
+Calculator
+Web News - Новини по интернет
+----MENU-----Graphs-------------
+Portfolio Value-стойност на портфейла
+Portfolio Cost - Value-себестойност на портфейла
+Portfolio Gain-доход на портфейла
+Portfolio/Investment(s) Overlay-покритие
+Pie Charts-пикова диаграма
+  Portfolio Value
+  Asset Allocation-разпределяне на активите
+  Investment Goal-инвестиционни цели
+  Symbol-символи
+  Investment Type-тип на инвестицията
+Stacked Value-обща стойност
+  Portfolio Value
+  Asset Allocation
+  Investment Goal
+  Symbol
+  Investment Type
+Value
+Share Price-цена на акция
+Price+Distributios-цена+комисионна
+Volume/High/Low-обем/високо/ниско
+Investment Overlay-скрити инвестиции
+  Share Price
+  Price + Dist.
+Cost - Value
+Gain
+Cost - Price-разходи при покупката
+Moving Average-усредняване
+  Share Price
+  Price + Dist.
+MA Overlay
+  Share Price
+  Price + Dist.
+Bar-Yields-резултати
+Options-опции
+  Overlaid Investments
+  Moving Average Weeks-седмично усредняване
+  Pie Slices-разделяне
+  Log Scale-основна диаграма
+  Historical Cost-история на цените(разходите, стойностите)
+  Cursor Snap-снимка
+------MENU------Reports-----
+Portfolio Value
+Portfolio Performance-представяне на портфейла
+Investment Performance-представяне на инвестициите
+Custom-поръчки(митница)
+ROI Yield
+Fund Performance Yield-доход от вложения капитал
+Distribution Summary-общо комисионни
+Capital Gains - FIFO
+Capital Gains - AVG
+Investment Transaction
+-----MENU-----Yields------
+Return On Investment-възвращаемост от инвестициите
+Fund Performance-вложен капитал
+  Distributed Distributions-разпределяне на комисионните
+  Re-invested Distributions
+Interpolation Range
+----MENU-----Options-----
+Preferences-предпочитания
+Colors-цвят
+Fonts
+Screen Pens
+Printer Pens
+Internet Settings-интернет среда
+CompuServe Settings
+Category Labels
+Currency Settings
+Alerts
+
+
+
+  
+

@@ -1,0 +1,517 @@
+
+[InstallShield Wizard]
+iDate=1
+iTime=1
+Flag=0
+ISX.EXE Size=679936
+ISX.EXE Date=11:21:52  8/4/1999
+ISX.EXE Ver=2.1.2.62
+SETUP.EXE Size=45312
+SETUP.EXE Date=9:12:24  23/3/1999
+SETUP.EXE Ver=3.0.111.0
+SETUP.INS Size=81342
+SETUP.INS Date=11:26:40  8/4/1999
+SETUP.INS Ver=Not available
+_INST16.EX_ Size=81342
+_INST16.EX_ Date=11:26:40  8/4/1999
+_INST16.EX_ Ver=Not available
+_INST32I.EX_ Size=294079
+_INST32I.EX_ Date=9:12:22  23/3/1999
+_INST32I.EX_ Ver=Not available
+ISDEPEND.INI Size=6857
+ISDEPEND.INI Date=10:13:00  23/7/1999
+ISDEPEND.INI Ver=Not available
+SWDEPEND.INI Size=9717
+SWDEPEND.INI Date=10:18:30  23/7/1999
+SWDEPEND.INI Ver=Not available
+ICOMP.EXE Size=119808
+ICOMP.EXE Date=9:12:24  23/3/1999
+ICOMP.EXE Ver=3.00.062
+SPLIT.EXE Size=90624
+SPLIT.EXE Date=9:12:24  23/3/1999
+SPLIT.EXE Ver=3.00.060
+PACKLIST.EXE Size=87552
+PACKLIST.EXE Date=9:12:24  23/3/1999
+PACKLIST.EXE Ver=3.00.060
+Version=2.12
+DevTool=Delphi 5
+Platform=Win32
+DisksBuilt=1
+DisksDir=PORTFE~1\12MB\
+TabsVisit=11111111100001111101
+LangNum=0
+LangDir=
+
+[VisualDesign]
+AppName=Ariadna Portfeil 1.0
+AppExe=[Program Files]\ArdPortfeil.exe
+AppExeFile=
+Version=1.3.0.29
+Company=Ariadna
+Title=Ariadna Portfeil 1.0
+TitleType=1
+BackgrndBmp=
+BackgrndAlign=4
+Backgrnd=1
+BackgrndColor=0
+Uninstall=0
+UninstallChecked=0
+Silent=1
+SmsMode=0
+
+[Types]
+Types=1
+Type1Components=1
+Type1Name=Complete
+Type1ComponentList=1 
+
+[Components]
+Components=1
+Component1Groups=7
+Component1Name=Application Files
+Component1Description=Основни файлове за работата на програмата
+Component1GroupList=1 2 3 4 5 6 7 
+
+[Groups]
+Groups=7
+Group1Size=2442752
+Group1Files=3
+Group1Name=Program Files
+Group1Dir=<INSTALLDIR>\Ard
+Group1Update=3
+Group1TargetOS=-1
+Group1File1=E:\Projects\Projects 32\PORTFEIL\ArdPortfeil.exe
+Group1File2=E:\Projects\Projects 32\PORTFEIL\ardsinfo.dll
+Group1File3=E:\Projects\Projects 32\PORTFEIL\Uninstall\uninstall.exe
+Group2Size=109849
+Group2Files=3
+Group2Name=Help
+Group2Dir=<INSTALLDIR>\Help
+Group2Update=0
+Group2TargetOS=-1
+Group2File1=E:\Projects\Projects 32\PORTFEIL\Help\Portfeil.hlp
+Group2File2=E:\Projects\Projects 32\PORTFEIL\Help\Portfeil.GID
+Group2File3=E:\Projects\Projects 32\PORTFEIL\Help\Portfeil.cnt
+Group3Size=88435
+Group3Files=2
+Group3Name=Portfeil
+Group3Dir=<INSTALLDIR>\Portfeil
+Group3Update=0
+Group3TargetOS=-1
+Group3File1=E:\Projects\Projects 32\PORTFEIL\DataArhiv\empty portfeil.acp
+Group3File2=E:\Projects\Projects 32\PORTFEIL\DataArhiv\simul portfeil.acp
+Group4Size=47104
+Group4Files=6
+Group4Name=DatabaseDirectory
+Group4Dir=<INSTALLDIR>\Database
+Group4Update=0
+Group4TargetOS=-1
+Group4File1=E:\Projects\Projects 32\PORTFEIL\DATABASE\BIndex.DB
+Group4File2=E:\Projects\Projects 32\PORTFEIL\DATABASE\BLihva.DB
+Group4File3=E:\Projects\Projects 32\PORTFEIL\DATABASE\DataUpra.DB
+Group4File4=E:\Projects\Projects 32\PORTFEIL\DATABASE\PazrCena.DB
+Group4File5=E:\Projects\Projects 32\PORTFEIL\DATABASE\PortData.DB
+Group4File6=E:\Projects\Projects 32\PORTFEIL\DATABASE\PortData.MB
+Group5Size=5286537
+Group5Files=21
+Group5Auto=101
+Group5ID=38701
+Group5Name=BDE/IDAPI Files
+Group5Dir=<ProgramFilesDir>\Common Files\Borland Shared\BDE
+Group5Update=-1
+Group5TargetOS=-1
+Group5File1=C:\Program Files\Common Files\Borland Shared\BDE\IDAPI32.DLL
+Group5File1Auto=101
+Group5File2=C:\Program Files\Common Files\Borland Shared\BDE\IDR20009.DLL
+Group5File2Auto=101
+Group5File3=C:\Program Files\Common Files\Borland Shared\BDE\BLW32.DLL
+Group5File3Auto=101
+Group5File4=C:\Program Files\Common Files\Borland Shared\BDE\BDEADMIN.EXE
+Group5File4Auto=101
+Group5File5=C:\Program Files\Common Files\Borland Shared\BDE\BDEADMIN.HLP
+Group5File5Auto=101
+Group5File6=C:\Program Files\Common Files\Borland Shared\BDE\BDEADMIN.CNT
+Group5File6Auto=101
+Group5File7=C:\Program Files\Common Files\Borland Shared\BDE\BDEADMIN.TOC
+Group5File7Auto=101
+Group5File8=C:\Program Files\Common Files\Borland Shared\BDE\IDDR32.DLL
+Group5File8Auto=101
+Group5File9=C:\Program Files\Common Files\Borland Shared\BDE\IDPDX32.DLL
+Group5File9Auto=101
+Group5File10=C:\Program Files\Common Files\Borland Shared\BDE\IDSQL32.DLL
+Group5File10Auto=101
+Group5File11=C:\Program Files\Common Files\Borland Shared\BDE\IDBAT32.DLL
+Group5File11Auto=101
+Group5File12=C:\Program Files\Common Files\Borland Shared\BDE\IDQBE32.DLL
+Group5File12Auto=101
+Group5File13=C:\Program Files\Common Files\Borland Shared\BDE\IDDBAS32.DLL
+Group5File13Auto=101
+Group5File14=C:\Program Files\Common Files\Borland Shared\BDE\IDASCI32.DLL
+Group5File14Auto=101
+Group5File15=C:\Program Files\Common Files\Borland Shared\BDE\IDDA3532.DLL
+Group5File15Auto=101
+Group5File16=C:\PROGRAM FILES\BORLAND\DELPHI5\INSTALLSHIELD\redist\IDAPINST.DLL
+Group5File16Auto=101
+Group5File17=C:\Program Files\Common Files\Borland Shared\BDE\BANTAM.DLL
+Group5File17Auto=101
+Group5File18=C:\Program Files\Common Files\Borland Shared\BDE\EUROPE.BTL
+Group5File18Auto=101
+Group5File19=C:\Program Files\Common Files\Borland Shared\BDE\CEEUROPE.BTL
+Group5File19Auto=101
+Group5File20=C:\Program Files\Common Files\Borland Shared\BDE\OTHER.BTL
+Group5File20Auto=101
+Group5File21=C:\Program Files\Common Files\Borland Shared\BDE\CHARSET.CVB
+Group5File21Auto=101
+Group6Size=6080
+Group6Files=1
+Group6Auto=98
+Group6ID=38698
+Group6Name=BDE/IDAPI CNF File
+Group6Dir=<ProgramFilesDir>\Common Files\Borland Shared\BDE
+Group6Update=-1
+Group6TargetOS=-1
+Group6File1=C:\PROGRAM FILES\BORLAND\DELPHI5\INSTALLSHIELD\redist\IDAPI.CNF
+Group6File1Auto=98
+Group7Size=5379
+Group7Files=2
+Group7Name=Information
+Group7Dir=<INSTALLDIR>
+Group7Update=0
+Group7TargetOS=-1
+Group7File1=E:\Projects\Projects 32\PORTFEIL\Readme\Readme.txt
+Group7File2=E:\Projects\Projects 32\PORTFEIL\Readme\License.txt
+
+[Sequence]
+DestinationLocationDir=<ProgramFilesDir>\Ariadna\Portfeil 1.0
+DatabaseLocationDir=<INSTALLDIR>\data
+SelectProgramFolderName=Ariadna Portfeil 1.0
+LicenseAgreement=1
+LicenseAgreementFile=E:\Projects\Projects 32\PORTFEIL\Readme\License.txt
+ReadMeFileBrowser=1
+ReadMeFileBrowserFile=E:\Projects\Projects 32\PORTFEIL\Readme\Readme.txt
+DestinationLocation=1
+ProgressBar=1
+SetupComplete=1
+SetupCompleteExec=
+SetupCompleteExecParam=
+SetupCompleteExecReadme=
+
+[RegEntries]
+Reg1Path=HKEY_CLASSES_ROOT
+Reg1Val1Type=0
+Reg1Val1Name=(Default)
+Reg1Val1Data=(value not set)
+Reg1Vals=1
+Reg2Path=HKEY_CURRENT_USER
+Reg2Val1Type=0
+Reg2Val1Name=(Default)
+Reg2Val1Data=(value not set)
+Reg2Vals=1
+Reg3Path=HKEY_LOCAL_MACHINE
+Reg3Val1Type=0
+Reg3Val1Name=(Default)
+Reg3Val1Data=(value not set)
+Reg3Vals=1
+Reg4Path=HKEY_USERS
+Reg4Val1Type=0
+Reg4Val1Name=(Default)
+Reg4Val1Data=(value not set)
+Reg4Vals=1
+Reg5Path=HKEY_CURRENT_CONFIG
+Reg5Val1Type=0
+Reg5Val1Name=(Default)
+Reg5Val1Data=(value not set)
+Reg5Vals=1
+Reg6Path=HKEY_DYN_DATA
+Reg6Val1Type=0
+Reg6Val1Name=(Default)
+Reg6Val1Data=(value not set)
+Reg6Vals=1
+Reg7Path=HKEY_CLASSES_ROOT\.acp
+Reg7Val1Type=0
+Reg7Val1Name=(Default)
+Reg7Val1Data=Portfeil.Arhiv
+Reg7Vals=1
+Reg8Path=HKEY_CLASSES_ROOT\Portfeil.Arhiv
+Reg8Val1Type=0
+Reg8Val1Name=(Default)
+Reg8Val1Data=(value not set)
+Reg8Vals=1
+Reg9Path=HKEY_CLASSES_ROOT\Portfeil.Arhiv\DefaultIcon
+Reg9Val1Type=0
+Reg9Val1Name=(Default)
+Reg9Val1Data=<INSTALLDIR>\Ard\ArdPortfeil.exe,1
+Reg9Vals=1
+Reg10Path=HKEY_CURRENT_USER\Software
+Reg10Val1Type=0
+Reg10Val1Name=(Default)
+Reg10Val1Data=(value not set)
+Reg10Vals=1
+Reg11Path=HKEY_CURRENT_USER\Software\Ariadna
+Reg11Val1Type=0
+Reg11Val1Name=(Default)
+Reg11Val1Data=(value not set)
+Reg11Vals=1
+Reg12Path=HKEY_CURRENT_USER\Software\Ariadna\Portfeil
+Reg12Val1Type=0
+Reg12Val1Name=(Default)
+Reg12Val1Data=(value not set)
+Reg12Vals=1
+Reg13Path=HKEY_CURRENT_USER\Software\Ariadna\Portfeil\1.0
+Reg13Val1Type=0
+Reg13Val1Name=(Default)
+Reg13Val1Data=(value not set)
+Reg13Val2Type=0
+Reg13Val2Name=ProgramPath
+Reg13Val2Data=<INSTALLDIR>
+Reg13Val3Type=0
+Reg13Val3Name=InstallPath
+Reg13Val3Data=
+Reg13Val4Type=0
+Reg13Val4Name=HelpFile
+Reg13Val4Data=<INSTALLDIR>\Help
+Reg13Vals=4
+Reg14Path=HKEY_CURRENT_USER\Software\Ariadna\Portfeil\1.0\Arhiv
+Reg14Val1Type=0
+Reg14Val1Name=(Default)
+Reg14Val1Data=(value not set)
+Reg14Val2Type=0
+Reg14Val2Name=Path
+Reg14Val2Data=<INSTALLDIR>\Portfeil
+Reg14Vals=2
+Reg15Path=HKEY_LOCAL_MACHINE\SOFTWARE
+Reg15Val1Type=0
+Reg15Val1Name=(Default)
+Reg15Val1Data=(value not set)
+Reg15Vals=1
+Reg16Path=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft
+Reg16Val1Type=0
+Reg16Val1Name=(Default)
+Reg16Val1Data=(value not set)
+Reg16Vals=1
+Reg17Path=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows
+Reg17Val1Type=0
+Reg17Val1Name=(Default)
+Reg17Val1Data=(value not set)
+Reg17Vals=1
+Reg18Path=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion
+Reg18Val1Type=0
+Reg18Val1Name=(Default)
+Reg18Val1Data=(value not set)
+Reg18Vals=1
+Reg19Path=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+Reg19Val1Type=0
+Reg19Val1Name=(Default)
+Reg19Val1Data=(value not set)
+Reg19Vals=1
+Reg20Path=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Ariadna Portfeil 1.0
+Reg20Val1Type=0
+Reg20Val1Name=(Default)
+Reg20Val1Data=(value not set)
+Reg20Val2Type=0
+Reg20Val2Name=DisplayName
+Reg20Val2Data=Ariadna Portfeil 1.0
+Reg20Val3Type=0
+Reg20Val3Name=UninstallString
+Reg20Val3Data=<INSTALLDIR>\Ard\uninstall.exe
+Reg20Vals=3
+Regs=20
+
+[Registry]
+Reg1Path=HKEY_CLASSES_ROOT\.acp
+Reg1ValName=(Default)
+Reg1ValType=0
+Reg1ValData=Portfeil.Arhiv
+Reg2Path=HKEY_CLASSES_ROOT\Portfeil.Arhiv
+Reg3Path=HKEY_CLASSES_ROOT\Portfeil.Arhiv\DefaultIcon
+Reg3ValName=(Default)
+Reg3ValType=0
+Reg3ValData=<INSTALLDIR>\Ard\ArdPortfeil.exe,1
+Reg4Path=HKEY_CURRENT_USER\Software
+Reg5Path=HKEY_CURRENT_USER\Software\Ariadna
+Reg6Path=HKEY_CURRENT_USER\Software\Ariadna\Portfeil
+Reg7Path=HKEY_CURRENT_USER\Software\Ariadna\Portfeil\1.0
+Reg8Path=HKEY_CURRENT_USER\Software\Ariadna\Portfeil\1.0
+Reg8ValName=ProgramPath
+Reg8ValType=0
+Reg8ValData=<INSTALLDIR>
+Reg9Path=HKEY_CURRENT_USER\Software\Ariadna\Portfeil\1.0
+Reg9ValName=InstallPath
+Reg10Path=HKEY_CURRENT_USER\Software\Ariadna\Portfeil\1.0
+Reg10ValName=HelpFile
+Reg10ValType=0
+Reg10ValData=<INSTALLDIR>\Help
+Reg11Path=HKEY_CURRENT_USER\Software\Ariadna\Portfeil\1.0\Arhiv
+Reg12Path=HKEY_CURRENT_USER\Software\Ariadna\Portfeil\1.0\Arhiv
+Reg12ValName=Path
+Reg12ValType=0
+Reg12ValData=<INSTALLDIR>\Portfeil
+Reg13Path=HKEY_LOCAL_MACHINE\SOFTWARE
+Reg14Path=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft
+Reg15Path=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows
+Reg16Path=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion
+Reg17Path=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+Reg18Path=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Ariadna Portfeil 1.0
+Reg19Path=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Ariadna Portfeil 1.0
+Reg19ValName=DisplayName
+Reg19ValType=0
+Reg19ValData=Ariadna Portfeil 1.0
+Reg20Path=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Ariadna Portfeil 1.0
+Reg20ValName=UninstallString
+Reg20ValType=0
+Reg20ValData=<INSTALLDIR>\Ard\uninstall.exe
+Regs=20
+
+[Icons]
+Icons=6
+Icon1Param=
+Icon1Cmd=[Program Files]\ArdPortfeil.exe
+Icon1Description=Portfeil 1.0
+Icon1WorkingDir=[Program Files]
+Icon1IconFile=[Program Files]\ArdPortfeil.exe
+Icon1RealFile=E:\Projects\Projects 32\PORTFEIL\ArdPortfeil.exe
+Icon1WhichIcon=0
+Icon1KeyVirtual=0
+Icon1KeyFlags=0
+Icon1StartMenu=0
+Icon1Window=0
+Icon2Param=
+Icon2Cmd=[Help]\Portfeil.hlp
+Icon2Description=Help
+Icon2WorkingDir=[Help]
+Icon2IconFile=
+Icon2RealFile=E:\Projects\Projects 32\PORTFEIL\Help\Portfeil.hlp
+Icon2WhichIcon=0
+Icon2KeyVirtual=0
+Icon2KeyFlags=0
+Icon2StartMenu=0
+Icon2Window=0
+Icon3Param=
+Icon3Cmd=[Information]\License.txt
+Icon3Description=License
+Icon3WorkingDir=[Information]
+Icon3IconFile=
+Icon3RealFile=E:\Projects\Projects 32\PORTFEIL\Readme\License.txt
+Icon3WhichIcon=0
+Icon3KeyVirtual=0
+Icon3KeyFlags=0
+Icon3StartMenu=0
+Icon3Window=0
+Icon4Param=
+Icon4Cmd=[Information]\Readme.txt
+Icon4Description=Readme
+Icon4WorkingDir=[Information]
+Icon4IconFile=
+Icon4RealFile=E:\Projects\Projects 32\PORTFEIL\Readme\Readme.txt
+Icon4WhichIcon=0
+Icon4KeyVirtual=0
+Icon4KeyFlags=0
+Icon4StartMenu=0
+Icon4Window=0
+Icon5Param=
+Icon5Cmd=[Program Files]\ArdPortfeil.exe
+Icon5Description=Ariadna Portfeil 1.0
+Icon5WorkingDir=[Program Files]
+Icon5IconFile=
+Icon5RealFile=E:\Projects\Projects 32\PORTFEIL\ArdPortfeil.exe
+Icon5WhichIcon=0
+Icon5KeyVirtual=0
+Icon5KeyFlags=0
+Icon5StartMenu=3
+Icon5Window=0
+Icon6Param=
+Icon6Cmd=[Program Files]\uninstall.exe
+Icon6Description=Uninstall
+Icon6WorkingDir=[Program Files]
+Icon6IconFile=
+Icon6RealFile=E:\Projects\Projects 32\PORTFEIL\Uninstall\uninstall.exe
+Icon6WhichIcon=0
+Icon6KeyVirtual=0
+Icon6KeyFlags=0
+Icon6StartMenu=0
+Icon6Window=0
+
+[IDAPI Alias]
+Alias1=DBasePort 1.0
+Alias1Path=<INSTALLDIR>\Database
+Alias1Type=
+Aliases=1
+SaveCfg=1
+
+[IDAPI Alias DBasePort 1.0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Autoexec]
+PathDir=
+ShareLocks=
+ShareFiles=
+Command=
+
+[CopyToFloppy]
+DriveOption=A:
+DestinationPath=
+DestinationPathOneFile=
+Password=
+
+[ISObjectIDs]
+nTotal=1
+ID1=101
+
+[Uninstall]
+UserUninstall=0

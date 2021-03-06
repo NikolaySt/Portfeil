@@ -1,0 +1,99 @@
+[Main Window]
+Create=1
+Visible=1
+State=2
+Left=0
+Top=0
+Width=800
+Height=105
+MaxLeft=-4
+MaxTop=-4
+MaxWidth=808
+MaxHeight=105
+ClientWidth=800
+ClientHeight=78
+
+[AlignmentPalette]
+Create=1
+Visible=1
+State=0
+Left=644
+Top=488
+Width=156
+Height=82
+MaxLeft=-4
+MaxTop=-4
+ClientWidth=150
+ClientHeight=60
+
+[PropertyInspector]
+Create=1
+Visible=1
+State=0
+Left=1
+Top=101
+Width=228
+Height=396
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=218
+ClientHeight=370
+TBDockHeight=386
+LRDockWidth=190
+Dockable=1
+SplitPos=90
+
+[ProjectManager]
+Create=1
+Visible=1
+State=0
+Left=231
+Top=102
+Width=481
+Height=395
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=473
+ClientHeight=371
+TBDockHeight=395
+LRDockWidth=449
+Dockable=1
+
+[Closed Files]
+File_0=SourceModule,'E:\Projects\Projects 32\PORTFEIL\Extra Units\ReadWriteResource.pas',0,1,17,11,21,0,0
+File_1=SourceModule,'E:\Projects\Projects 32\PORTFEIL\Extra Units\CodePassword.pas',0,1,1,18,2,0,0
+File_2=SourceModule,'c:\program files\borland\delphi4\source\vcl\Forms.pas',0,1,4249,1,4266,0,0
+File_3=SourceModule,'c:\program files\borland\delphi4\source\vcl\Controls.pas',0,1,5680,27,5687,0,0
+File_4=SourceModule,'c:\program files\borland\delphi4\source\vcl\Classes.pas',0,1,3480,1,3495,0,0
+File_5=SourceModule,'E:\Projects\Projects 32\PORTFEIL\Passchg.pas',0,1,21,15,21,0,0
+File_6=SourceModule,'E:\Projects\Projects 32\PORTFEIL\Password.pas',0,1,25,1,33,0,0
+File_7=SourceModule,'E:\Projects\Projects 32\PORTFEIL\INVEST.PAS',0,1,382,1,385,1,0
+File_8=SourceModule,'E:\Projects\Projects 32\PORTFEIL\SPISUK.PAS',0,1,319,48,326,1,0
+File_9=SourceModule,'E:\Projects\Projects 32\PORTFEIL\Extra Units\Setupreg.pas',0,1,51,51,54,0,0
+
+[Modules]
+Count=0
+EditWindowCount=0
+
+[E:\Projects\Projects 32\PORTFEIL\Ariadna Portfeil 1.0 - Group.bpg]
+FormState=0
+FormOnTop=0
+
+[E:\Projects\Projects 32\PORTFEIL\ArdPortfeil.dpr]
+FormState=0
+FormOnTop=0
+
+[DockHosts]
+DockHostCount=0
+
+[Watches]
+Count=2
+Watch0='hUpdate',256,0,18,1
+Watch1='PStr',256,0,18,1
+
+[Breakpoints]
+Count=0
+
+[AddressBreakpoints]
+Count=0
+

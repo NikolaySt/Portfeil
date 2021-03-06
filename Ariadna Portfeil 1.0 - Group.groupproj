@@ -1,0 +1,132 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{D7F24A64-811A-42FA-ADC9-AEC5357E5FEE}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Generation Serial\GenSerial.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Found ProjectFile\ArdPortfeil.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Dll Security\ArdSinfo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Uninstall\uninstall.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Local Hide Info Program\LocalInfo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="UnFromFloppy\_unindel.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Charts\ChartsTest.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FileStream\FileDBStream.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TreeFiles\TreeDB.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="GenSerial">
+        <MSBuild Projects="Generation Serial\GenSerial.dproj"/>
+    </Target>
+    <Target Name="GenSerial:Clean">
+        <MSBuild Projects="Generation Serial\GenSerial.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GenSerial:Make">
+        <MSBuild Projects="Generation Serial\GenSerial.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ArdPortfeil">
+        <MSBuild Projects="Found ProjectFile\ArdPortfeil.dproj"/>
+    </Target>
+    <Target Name="ArdPortfeil:Clean">
+        <MSBuild Projects="Found ProjectFile\ArdPortfeil.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ArdPortfeil:Make">
+        <MSBuild Projects="Found ProjectFile\ArdPortfeil.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ArdSinfo">
+        <MSBuild Projects="Dll Security\ArdSinfo.dproj"/>
+    </Target>
+    <Target Name="ArdSinfo:Clean">
+        <MSBuild Projects="Dll Security\ArdSinfo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ArdSinfo:Make">
+        <MSBuild Projects="Dll Security\ArdSinfo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="uninstall">
+        <MSBuild Projects="Uninstall\uninstall.dproj"/>
+    </Target>
+    <Target Name="uninstall:Clean">
+        <MSBuild Projects="Uninstall\uninstall.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="uninstall:Make">
+        <MSBuild Projects="Uninstall\uninstall.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LocalInfo">
+        <MSBuild Projects="Local Hide Info Program\LocalInfo.dproj"/>
+    </Target>
+    <Target Name="LocalInfo:Clean">
+        <MSBuild Projects="Local Hide Info Program\LocalInfo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LocalInfo:Make">
+        <MSBuild Projects="Local Hide Info Program\LocalInfo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="_unindel">
+        <MSBuild Projects="UnFromFloppy\_unindel.dproj"/>
+    </Target>
+    <Target Name="_unindel:Clean">
+        <MSBuild Projects="UnFromFloppy\_unindel.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="_unindel:Make">
+        <MSBuild Projects="UnFromFloppy\_unindel.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ChartsTest">
+        <MSBuild Projects="Charts\ChartsTest.dproj"/>
+    </Target>
+    <Target Name="ChartsTest:Clean">
+        <MSBuild Projects="Charts\ChartsTest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ChartsTest:Make">
+        <MSBuild Projects="Charts\ChartsTest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FileDBStream">
+        <MSBuild Projects="FileStream\FileDBStream.dproj"/>
+    </Target>
+    <Target Name="FileDBStream:Clean">
+        <MSBuild Projects="FileStream\FileDBStream.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FileDBStream:Make">
+        <MSBuild Projects="FileStream\FileDBStream.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TreeDB">
+        <MSBuild Projects="TreeFiles\TreeDB.dproj"/>
+    </Target>
+    <Target Name="TreeDB:Clean">
+        <MSBuild Projects="TreeFiles\TreeDB.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TreeDB:Make">
+        <MSBuild Projects="TreeFiles\TreeDB.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="GenSerial;ArdPortfeil;ArdSinfo;uninstall;LocalInfo;_unindel;ChartsTest;FileDBStream;TreeDB"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="GenSerial:Clean;ArdPortfeil:Clean;ArdSinfo:Clean;uninstall:Clean;LocalInfo:Clean;_unindel:Clean;ChartsTest:Clean;FileDBStream:Clean;TreeDB:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="GenSerial:Make;ArdPortfeil:Make;ArdSinfo:Make;uninstall:Make;LocalInfo:Make;_unindel:Make;ChartsTest:Make;FileDBStream:Make;TreeDB:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

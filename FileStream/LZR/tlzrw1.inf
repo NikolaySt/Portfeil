@@ -1,0 +1,29 @@
+[DSP upload]
+Filename=tlzrw1.zip
+Replacements=tlzrw1.zip
+Version=2.00.00
+FileURL=
+Description=Compression component. Uses LZH or LZRW1/KH  compression. Now also supports (memory, file, handle)Streams.
+Delphi 1.0=Y
+Delphi 2.0=Y
+Delphi 3.0=Y
+C++Builder 1.0=N
+File Status=Freeware
+Full Source=Included
+Category=InVisible Components
+Note=Send any suggestions or questions to Danny.Heijl@cevi.be.
+Additional info=HTML file ( extension htm )
+
+[DSP Support]
+DSP Support=Y
+
+[Versions available]
+Delphi 1.0=
+Delphi 2.0=
+Delphi 3.0=
+C++Builder 1.0=
+
+[Uploader]
+Author name=Danny Heijl
+Author E-mail=Danny.Heijl@cevi.be
+Author URL=http://www.cevi.be/pp/danny/dhe.htm

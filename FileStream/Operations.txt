@@ -1,0 +1,33 @@
+
+Основни операции
+ 0. None
+ 1. Edit
+ 2. Insert
+ 3. Append
+ 4. Delete
+
+Списък с записи  
+TList
+ (Операция) [Данни]
+
+ (0)[01, 92365, [235fehgehg], [dlfsytndsnfyhkdfhgdfs]]
+ (1)[02, 92365, [235fehgehg], [ytndsnfyhkdfhgdfs]]
+ (4)[03, 234,   [2ehgehg],    [hkdfhgdfs]]
+ (2)[04, 0,     [23gehg],     [dtndsdfhgdfs]]
+  ..
+  ..
+ (1)[99, 0,     [gehg],       [dhgdfs]]
+  ..
+  ..
+
+
+Списък с извършените операции върху данните
+TList[Операции, Стари данни]
+{
+  [1, (02, 92365, [235fehgehg], [ytndsnfyhkdfhgdfs])]
+  [1, (02, 923,   [ehgehg],     [gdfs])]
+  [1, (02, 9233,  [234ehgehg],  [333gdfs])]
+  [4, (02, 1111,  [.........],  [MASTER])],
+  [4, (03, 234,   [2ehgehg],    [hkdfhgdfs])]
+  [2, (04, 0,     [23gehg],     [dtndsdfhgdfs)]
+}

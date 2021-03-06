@@ -1,0 +1,28 @@
+NAV
+-----Dlg--------Price/Edit all data
+Shares-акция
+Value-стойност
+Volume-обем
+High-висок
+Low-нисък
+Date-дата
+Close
+Data Type
+Investment
+Option Data
+Closing Price
+Prices
+Purchases-купувам
+Reinvestmets-повторно влагане на пари
+Redemptions-изкупуване
+Distributions /(all)
+Dividends
+ST Cap Gains-покривам печалбата
+MT Cap Gains
+LT Cap Gains
+Interest Income-доход от лихви
+Account Fees
+Return of Capital-възвращаемост на капитала
+Other Distribution
+Splits
+Alerts

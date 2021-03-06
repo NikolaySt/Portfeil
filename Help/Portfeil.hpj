@@ -1,0 +1,35 @@
+; This file is maintained by HCW. Do not modify this file directly.
+
+[OPTIONS]
+ERRORLOG=ERRORLOG.TXT
+LCID=0x402 0x0 0x0 ; Bulgarian
+REPORT=Yes
+TITLE=Ariadna Portfeil 1.0 Help
+COPYRIGHT=Copyright © 2000 Ariadna Ltd. All rights reserved.
+HLP=Portfeil.hlp
+
+[FILES]
+Portfeil.rtf
+
+[MAP]
+ARHIV=800
+CHANGE_DATA=1100
+IZISK_MODEL=600
+KARTON_INV=700
+OSNOVNI_DANNI=100
+PASSWORD=900
+RAZG_PURVO_DANNI=200
+REG_DOHOD=400
+REG_PRODAGBI=300
+VUV_DANNI=500
+VUV_STOI_MINAL_PERIOD=1000
+
+[WINDOWS]
+main="Ариадна Портфейл 1.0 - Помощ",,4,,(r16777088),f4
+
+[CONFIG]
+CreateButton("ID_CONTENTS", "&Съдържание", Contents())
+CreateButton("ID_INDEX", "&Индекс", Search())
+CreateButton(btn_back, &Назад, Back())
+BrowseButtons()
+CreateButton(btn_history, &История, History())

@@ -1,0 +1,18 @@
+Microsoft (R) Help Compiler
+HCRTF 4.03.0002
+Copyright (c) Microsoft Corp 1990 - 1995. All rights reserved.
+Portfeil.hpj
+    HC3048: Warning: topic #4 of E:\Projects\Projects 32\PORTFEIL\Help\Portfeil.rtf : 
+	Nonscrolling region defined after scrolling region.
+    HC3048: Warning: topic #27 of E:\Projects\Projects 32\PORTFEIL\Help\Portfeil.rtf : 
+	Nonscrolling region defined after scrolling region.
+29	Topics
+22	Jumps
+82	Keywords
+6	Bitmaps
+
+
+Created E:\Projects\Projects 32\PORTFEIL\Help\Portfeil.hlp, 97,717 bytes
+Bitmaps: 4,232 bytes
+Compile time: 0 minutes, 1 second
+0 notes, 2 warnings

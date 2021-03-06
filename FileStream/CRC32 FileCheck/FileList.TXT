@@ -1,0 +1,32 @@
+FileCheck:  D:\Archives_19_02_2007\Programing\Projects\Projects 32\PORTFEIL\FileStream\CRC32 FileCheck 07.17.2007 15:04
+
+   Date      Time   Attrib    Bytes     CRC-32  Filename
+---------- -------- ------ ----------- -------- --------
+
+D:\Archives_19_02_2007\Programing\Projects\Projects 32\PORTFEIL\FileStream\CRC32 FileCheck
+07.17.2007 15:03:12 A-----       2 801 E1E6BB82 crc32.dcu
+01.07.2001 09:01:56 A-----       7 452 91AA39C9 crc32.pas
+07.17.2007 15:03:12 A-----       1 294 2EAD2A29 Dbt_h.dcu
+08.02.1999 17:24:46 A-----       2 410 43AF29C1 Dbt_h.pas
+09.06.1999 23:15:32 A-----       1 026 89CC16AC FileCheck.dof
+09.06.1999 01:10:02 A-----         448 E680E71E FileCheck.dpr
+07.17.2007 15:03:12 A-----     475 136 85B6DEC7 FileCheck.exe
+12.31.1995 23:00:00 A-----         766 09AF608D FileCheck.ICO
+09.06.1999 23:15:30 A-----         876 D43E38D5 FileCheck.res
+07.17.2007 15:04:42 A-----           0 A6D04717 FileList.TXT
+07.17.2007 15:03:12 A-----       3 027 CA64CB25 FileListLibrary.dcu
+09.05.1999 17:37:06 A-----       4 782 96B8A705 FileListLibrary.pas
+07.17.2007 15:03:12 A-----      36 849 FB274B2B ScreenFileCheck.dcu
+07.17.2007 15:03:10 A-----      11 637 CD3F7D37 ScreenFileCheck.dfm
+09.06.1999 22:57:52 A-----      37 482 4098C94C ScreenFileCheck.pas
+07.17.2007 15:03:12 A-----       3 378 29563F9C TokenLibrary.dcu
+09.06.1999 01:09:54 A-----       6 452 0946BE0F TokenLibrary.pas
+07.17.2007 15:04:42 A-----           0 C5EA8151 Verify.CRC
+                          ------------ --------
+                               595 816 8A909467 18 files
+
+Summary of D:\Archives_19_02_2007\Programing\Projects\Projects 32\PORTFEIL\FileStream\CRC32 FileCheck
+  Directories =               1
+  Files       =              18
+  Bytes       =         595 816
+  Meta CRC-32 =        8A909467
